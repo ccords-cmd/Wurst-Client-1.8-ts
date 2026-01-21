@@ -33,7 +33,7 @@ const runtime = new Runtime();
 // sample dynamic import loader (for packages/modules/*)
 async function loadSampleModule() {
   try {
-    const mod = await import('../packages/modules/sample');
+    const mod = await import('../packages/modules/sample/index.js');
     if (mod && mod.default) {
       runtime.register(mod.default);
     }
