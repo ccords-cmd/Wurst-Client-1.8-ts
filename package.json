@@ -4,10 +4,13 @@
   "private": false,
   "type": "module",
   "scripts": {
-    "build": "tsc -b",
+    "build": "tsc",
     "lint": "eslint . --ext .ts",
     "test": "echo \"No tests configured\" && exit 0",
-    "start": "node ./dist/src/index.js"
+    "start": "node ./dist/src/index.js",                         
+  "bundle": "node bundle.js",
+  "bundle:prod": "node bundle.js --prod",
+  "build:all": "pnpm build && pnpm bundle:prod"
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^8.53.1",
