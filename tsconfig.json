@@ -8,7 +8,11 @@
     "strict": true,
     "esModuleInterop": true,
     "skipLibCheck": true,
-    "forceConsistentCasingInFileNames": true
+    "forceConsistentCasingInFileNames": true,
+      "baseUrl": ".",
+  "paths": {
+    "@core/*": ["src/core/*"],
+    "@wurst/sample-module": ["packages/modules/sample/index.ts"],
   },
   "include": [
     "src/**/*",

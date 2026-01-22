@@ -26,7 +26,10 @@ export class Runtime {
     }
   }
 }
+import { SampleModule } from '@wurst/sample-module';  // needs paths alias in tsconfig
 
+// Assuming you have a register function that takes the class or instance
+registerModule(SampleModule);          // or new SampleModule()
 // quick bootstrap
 const runtime = new Runtime();
 

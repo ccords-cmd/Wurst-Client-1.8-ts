@@ -10,3 +10,4 @@ const SampleModule: Module = {
 };
 
 export default SampleModule;
+export { SampleModule } from './SampleModule';
