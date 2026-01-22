@@ -3,7 +3,6 @@
   "version": "0.1.0",
   "private": false,
   "type": "module",
-  
   "scripts": {
     "build": "tsc -b",
     "lint": "eslint . --ext .ts",
@@ -11,10 +10,10 @@
     "start": "node ./dist/src/index.js"
   },
   "devDependencies": {
-    "typescript": "^5.0.0",
-    "eslint": "^8.0.0",
-    "@typescript-eslint/parser": "^5.0.0",
-    "@typescript-eslint/eslint-plugin": "^5.0.0",
-    "prettier": "^2.0.0"
+    "@typescript-eslint/eslint-plugin": "^8.53.1",
+    "@typescript-eslint/parser": "^8.53.1",
+    "eslint": "^9.39.2",
+    "prettier": "^2.0.0",
+    "typescript": "^5.0.0"
   }
 }
