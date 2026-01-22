@@ -1,0 +1,4 @@
+# pnpm-workspace.yaml
+packages:
+  - 'packages/modules/*'      # if your modules are nested one level deeper
+  - 'packages/*'              # or keep it broad if you plan more sub-folders

@@ -3,9 +3,7 @@
   "version": "0.1.0",
   "private": false,
   "type": "module",
-  "workspaces": [
-    "packages/*"
-  ],
+  
   "scripts": {
     "build": "tsc -b",
     "lint": "eslint . --ext .ts",
